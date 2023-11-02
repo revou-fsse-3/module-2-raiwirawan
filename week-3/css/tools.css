@@ -1,0 +1,71 @@
+.result,
+.sum-result {
+	border: none;
+	outline: none;
+	border-radius: 15px;
+	max-width: 500px;
+	height: auto;
+}
+
+.result {
+	background-color: bisque;
+	padding: 15px 20px;
+	margin: 20px 0px;
+}
+
+.sum-result {
+	font-weight: 800;
+	background-color: rgb(154 215 255);
+	padding: 7.5px 10px;
+	margin: 10px 0px;
+}
+
+.display-none {
+	display: none;
+}
+
+.tools-header {
+	margin-bottom: 30px;
+}
+
+input[data-label="numbers-for-array"] {
+	font-size: 20px;
+	padding: 15px 30px;
+	border-radius: 10px;
+}
+
+.push-num,
+.result-wrapper-inner {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.push-num button,
+.result-wrapper button {
+	width: 200px;
+	margin-top: 0;
+	margin-left: 20px;
+}
+
+.result-wrapper button {
+	height: 50px;
+	margin: auto 0;
+	margin-left: 20px;
+}
+
+.result-wrapper .result {
+	width: 100%;
+}
+
+.tools-1 {
+	padding: 50px 0px;
+}
+
+.tools-hr {
+	height: 10px;
+	background-color: #e2cccc;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+}

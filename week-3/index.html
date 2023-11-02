@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>RAIMATHICS</title>
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="stylesheet" href="./css/tools.css" />
+		<link rel="stylesheet" href="./css/responsive-nav.css" />
+		<link rel="stylesheet" href="./css/carousel.css" />
+	</head>
+	<body>
+		<header id="header">
+			<nav class="navbar">
+				<a href="#" class="nav-logo logo">RAIMATHICS.</a>
+				<ul class="nav-menu">
+					<li class="nav-item">
+						<a href="#first-section" class="nav-link">GALLERY</a>
+					</li>
+					<li class="nav-item">
+						<a href="#second-section" class="nav-link">FORM</a>
+					</li>
+					<li class="nav-item">
+						<a href="#tools-section" class="nav-link">TOOLS</a>
+					</li>
+					<li class="nav-item">
+						<a href="#footer" class="nav-link">THANKS</a>
+					</li>
+				</ul>
+				<div class="hamburger">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</div>
+			</nav>
+		</header>
+		<main id="main" class="full">
+			<section id="first-section" class="first-section full section-padding">
+				<div class="flex-boxes">
+					<div class="img-box">
+						<img
+							src="./assets/images/11.png"
+							alt="Youngest archmage of the empire"
+							class="full"
+						/>
+					</div>
+					<div class="img-box">
+						<img
+							src="./assets/images/old_man.png"
+							alt="Dangerous old man"
+							class="full"
+						/>
+					</div>
+					<div class="img-box">
+						<img
+							src="./assets/images/young_knight.png"
+							alt="Young knight of the empire"
+							class="full"
+						/>
+					</div>
+					<div class="img-box">
+						<img
+							src="./assets/images/young_warrior.png"
+							alt="Young warrior of the empire"
+							class="full"
+						/>
+					</div>
+					<div class="img-box">
+						<img
+							src="./assets/images/13.png"
+							alt="Young archmage of magic tower"
+							class="full"
+						/>
+					</div>
+					<div class="img-box">
+						<img
+							src="./assets/images/12.png"
+							alt="Young mage of the Ragnar Guild"
+							class="full"
+						/>
+					</div>
+					<div class="img-box">
+						<img
+							src="./assets/images/15.png"
+							alt="Young Moonlight Swordmaster of the empire"
+							class="full"
+						/>
+					</div>
+					<div class="img-box">
+						<img
+							src="./assets/images/17.png"
+							alt="Swordmaster of the empire"
+							class="full"
+						/>
+					</div>
+					<div class="img-box">
+						<img
+							src="./assets/images/14.png"
+							alt="Young knight of the empire"
+							class="full"
+						/>
+					</div>
+				</div>
+			</section>
+			<!-- CAROUSEL START -->
+			<section class="carousel" aria-label="Gallery">
+				<ol class="carousel__viewport">
+					<li id="carousel__slide1" tabindex="0" class="carousel__slide">
+						<div class="carousel__snapper">
+							<img
+								src="./assets/images/16.png"
+								alt="Knight of the empire"
+								srcset=""
+							/>
+						</div>
+						<a href="#carousel__slide4" class="carousel__prev"
+							>Go to last slide</a
+						>
+						<a href="#carousel__slide2" class="carousel__next"
+							>Go to next slide</a
+						>
+					</li>
+					<li id="carousel__slide2" tabindex="0" class="carousel__slide">
+						<div class="carousel__snapper">
+							<img
+								src="./assets/images/11.png"
+								alt="Knight of the empire"
+								srcset=""
+							/>
+						</div>
+						<a href="#carousel__slide1" class="carousel__prev"
+							>Go to previous slide</a
+						>
+						<a href="#carousel__slide3" class="carousel__next"
+							>Go to next slide</a
+						>
+					</li>
+					<li id="carousel__slide3" tabindex="0" class="carousel__slide">
+						<div class="carousel__snapper">
+							<img
+								src="./assets/images/18.png"
+								alt="Knight of the empire"
+								srcset=""
+							/>
+						</div>
+						<a href="#carousel__slide2" class="carousel__prev"
+							>Go to previous slide</a
+						>
+						<a href="#carousel__slide4" class="carousel__next"
+							>Go to next slide</a
+						>
+					</li>
+					<li id="carousel__slide4" tabindex="0" class="carousel__slide">
+						<div class="carousel__snapper">
+							<img
+								src="./assets/images/6.png"
+								alt="Knight of the empire"
+								srcset=""
+							/>
+						</div>
+						<a href="#carousel__slide3" class="carousel__prev"
+							>Go to previous slide</a
+						>
+						<a href="#carousel__slide1" class="carousel__next"
+							>Go to first slide</a
+						>
+					</li>
+				</ol>
+				<aside class="carousel__navigation">
+					<ol class="carousel__navigation-list">
+						<li class="carousel__navigation-item">
+							<a href="#carousel__slide1" class="carousel__navigation-button"
+								>Go to slide 1</a
+							>
+						</li>
+						<li class="carousel__navigation-item">
+							<a href="#carousel__slide2" class="carousel__navigation-button"
+								>Go to slide 2</a
+							>
+						</li>
+						<li class="carousel__navigation-item">
+							<a href="#carousel__slide3" class="carousel__navigation-button"
+								>Go to slide 3</a
+							>
+						</li>
+						<li class="carousel__navigation-item">
+							<a href="#carousel__slide4" class="carousel__navigation-button"
+								>Go to slide 4</a
+							>
+						</li>
+					</ol>
+				</aside>
+			</section>
+			<!-- CAROUSEL END -->
+			<section
+				id="second-section"
+				class="second-section section-padding full form-section"
+			>
+				<div class="form-wrapper">
+					<div class="form-header text-center">FORM</div>
+					<form method="post">
+						<div class="field-group">
+							<label for="name">Name :</label>
+							<input
+								class="input-field"
+								type="text"
+								name="name"
+								id="name"
+								required
+							/>
+						</div>
+
+						<div class="field-group">
+							<label for="email">Email :</label>
+							<input
+								class="input-field"
+								type="email"
+								name="email"
+								id="email"
+								required
+							/>
+						</div>
+
+						<div class="field-group">
+							<label for="message">Message :</label>
+							<textarea
+								class="textarea"
+								name="message"
+								id="message"
+								required
+							></textarea>
+						</div>
+
+						<div class="field-group">
+							<label for="gender">Gender :</label>
+							<input
+								class="input-field"
+								type="radio"
+								name="gender"
+								id="male"
+								value="male"
+							/>
+							Male
+							<input
+								class="input-field"
+								type="radio"
+								name="gender"
+								id="female"
+								value="female"
+							/>
+							Female
+						</div>
+
+						<div class="field-group">
+							<label for="subscribe">Subscribe to our newsletter:</label>
+							<input
+								class="input-field"
+								type="checkbox"
+								name="subscribe"
+								id="subscribe"
+								value="1"
+							/>
+							Yes
+						</div>
+
+						<button class="button" type="submit">Submit</button>
+					</form>
+				</div>
+			</section>
+			<section id="tools-section" class="full section-padding tools-section">
+				<hr class="tools-hr" />
+				<div class="tools-1" data-name="random-arithmetic-sum">
+					<div class="tools-header">
+						<h2 class="tools-head">Random Arithmetic Sum</h2>
+					</div>
+					<div class="tools-calculators">
+						<div class="calculate-nums">
+							<div class="push-num my-10px">
+								<input
+									type="number"
+									data-label="numbers-for-array"
+									data-operator="sum"
+									class="numbers"
+								/>
+								<button class="button" data-label="calculation-button">
+									Push Number
+								</button>
+							</div>
+							<div
+								class="result-wrapper my-10px display-none"
+								data-label="calculation-result-wrapper"
+							>
+								<div class="result-wrapper-inner">
+									<div class="width-300px">
+										<div class="result" data-label="calculation-result"></div>
+									</div>
+									<button class="button" data-label="calculation-array-nums">
+										Calculate
+									</button>
+								</div>
+								<div
+									class="width-300px sum-result display-none"
+									data-label="sum-array-result"
+								></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<hr class="tools-hr" />
+			</section>
+		</main>
+		<footer id="footer" class="footer full">
+			<div class="thanks-wrapper">
+				<h2 class="thanks-message text-center">
+					<div class="first-sentence">Thank you for visiting my page!</div>
+					<div class="second-sentence">I hope your day is awesome!</div>
+				</h2>
+			</div>
+		</footer>
+	</body>
+	<script src="./js/navbar.js"></script>
+	<script src="./js/functions.js"></script>
+</html>
