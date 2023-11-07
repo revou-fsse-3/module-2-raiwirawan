@@ -417,14 +417,20 @@
 					<div class="tools-calculators">
 						<label for="body-mass">Body Mass (kg)</label>
 						<input type="number" id="body-mass" class="input-field" />
-						<label for="body-height">Body Height (m)</label>
+						<label for="body-height">Body Height (cm)</label>
 						<input type="number" id="body-height" class="input-field" />
 						<button class="button" data-name="body_mass_index_button">
 							Calculate
 						</button>
-						<div class="display-none" data-name="body_mass_index_result">
+						<div
+							class="display-none bmi_result"
+							data-name="body_mass_index_result"
+						>
 							Body Mass Index :
 							<div data-name="bmi_number"></div>
+							<br />
+							BMI Category :
+							<div data-name="bmi_category"></div>
 						</div>
 					</div>
 				</div>
