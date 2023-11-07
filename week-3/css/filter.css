@@ -1,0 +1,10 @@
+.first-section .img-box {
+	filter: grayscale(100%);
+	transition-property: filter;
+	transition-duration: 1s;
+	cursor: pointer;
+}
+
+.first-section .img-box:hover {
+	filter: none;
+}

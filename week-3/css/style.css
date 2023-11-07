@@ -202,6 +202,42 @@ label[for="message"] {
 	margin: 10px 0;
 }
 
+.stylish {
+	font-weight: bold;
+	animation-duration: 3s;
+	animation-name: slideinright;
+	text-shadow: 2px 2px #222222;
+}
+
+.slideinleft {
+	animation-duration: 3s;
+	animation-name: slideinright;
+}
+
+@keyframes slideinright {
+	from {
+		margin-left: 100%;
+		/* width: 300%; */
+	}
+
+	to {
+		margin-left: 0%;
+		/* width: 100%; */
+	}
+}
+
+@keyframes slideinleft {
+	from {
+		margin-right: 100%;
+		/* width: 300%; */
+	}
+
+	to {
+		margin-right: 0%;
+		/* width: 100%; */
+	}
+}
+
 #penguin-photos .grid-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
