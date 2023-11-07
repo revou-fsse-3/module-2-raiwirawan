@@ -227,31 +227,32 @@
 					<div class="penguin-photo-item" id="item-1">
 						<img
 							src="./assets/images/webp/4.webp"
-							alt="A penguin above the hill by Ian Parker."
+							alt="Strange sit pose of Imperial Commander"
 						/>
 					</div>
 					<div class="penguin-photo-item" id="item-2">
 						<img
+							class="object-top"
 							src="./assets/images/webp/6.webp"
-							alt="Three penguins walking in a snowy field."
+							alt="Middle ages commander of the empire"
 						/>
 					</div>
 					<div class="penguin-photo-item" id="item-3">
 						<img
 							src="./assets/images/webp/8.webp"
-							alt="A penguin swimming underwater by Atlas Kadrow."
+							alt="The Dragon General from the Eastern Empire"
 						/>
 					</div>
 					<div class="penguin-photo-item" id="item-4">
 						<img
 							src="./assets/images/webp/14.webp"
-							alt="Horde of penguins by Martin Wettstein."
+							alt="Young Knight of the Moonlight Order"
 						/>
 					</div>
 					<div class="penguin-photo-item" id="item-5">
 						<img
 							src="./assets/images/webp/9.webp"
-							alt="Penguin under the sum by Atlas Kadrow."
+							alt="Chinese Empire Prime Minister in war"
 						/>
 					</div>
 				</div>
@@ -274,7 +275,10 @@
 							media="(min-width: 800px)"
 							srcset="./assets/images/webp/7.webp"
 						/>
-						<img src="./assets/images/webp/7.webp" alt="AI Generated Images" />
+						<img
+							src="./assets/images/webp/7.webp"
+							alt="General of the empire, the strongest knight order"
+						/>
 					</picture>
 				</figure>
 			</section>
@@ -406,6 +410,25 @@
 					</div>
 				</div>
 				<hr class="tools-hr" />
+				<div class="tools-2" data-name="random-arithmetic-sum">
+					<div class="tools-header">
+						<h2 class="tools-head">Body Mass Index</h2>
+					</div>
+					<div class="tools-calculators">
+						<label for="body-mass">Body Mass (kg)</label>
+						<input type="number" id="body-mass" class="input-field" />
+						<label for="body-height">Body Height (m)</label>
+						<input type="number" id="body-height" class="input-field" />
+						<button class="button" data-name="body_mass_index_button">
+							Calculate
+						</button>
+						<div class="display-none" data-name="body_mass_index_result">
+							Body Mass Index :
+							<div data-name="bmi_number"></div>
+						</div>
+					</div>
+				</div>
+				<hr class="tools-hr" />
 			</section>
 		</main>
 		<footer id="footer" class="footer full">
@@ -420,4 +443,5 @@
 	<script src="./js/navbar.js"></script>
 	<script src="./js/functions.js"></script>
 	<script src="./js/darkMode.js"></script>
+	<script src="./js/bmi.js"></script>
 </html>

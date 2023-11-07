@@ -97,3 +97,7 @@ nav > #dark-mode-switch > p {
 .dark-mode #tools-section {
 	color: #000;
 }
+
+.dark-mode #tools-section .tools-head {
+	color: white;
+}

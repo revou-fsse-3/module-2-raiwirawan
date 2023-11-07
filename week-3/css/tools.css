@@ -58,7 +58,8 @@ input[data-label="numbers-for-array"] {
 	width: 100%;
 }
 
-.tools-1 {
+.tools-1,
+.tools-2 {
 	padding: 50px 0px;
 }
 

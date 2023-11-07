@@ -215,6 +215,10 @@ label[for="message"] {
 	object-fit: cover;
 }
 
+.object-top {
+	object-position: top;
+}
+
 .grid-container #item-1 {
 	grid-column: 1;
 	grid-row: 1 / 2 span;
