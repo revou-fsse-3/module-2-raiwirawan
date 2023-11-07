@@ -15,6 +15,7 @@
 		<link rel="stylesheet" href="./css/tools.css" />
 		<link rel="stylesheet" href="./css/responsive-nav.css" />
 		<link rel="stylesheet" href="./css/carousel.css" />
+		<link rel="stylesheet" href="./css/responsive.css" />
 	</head>
 	<body>
 		<header id="header">
@@ -43,6 +44,7 @@
 		</header>
 		<main id="main" class="full">
 			<section id="first-section" class="first-section full section-padding">
+				<h2 class="heading-2">GALLERY</h2>
 				<div class="flex-boxes">
 					<div class="img-box">
 						<img
@@ -109,96 +111,161 @@
 					</div>
 				</div>
 			</section>
+
 			<!-- CAROUSEL START -->
-			<section class="carousel" aria-label="Gallery">
-				<ol class="carousel__viewport">
-					<li id="carousel__slide1" tabindex="0" class="carousel__slide">
-						<div class="carousel__snapper">
-							<img
-								src="./assets/images/webp/16.webp"
-								alt="Knight of the empire"
-								srcset=""
-							/>
-						</div>
-						<a href="#carousel__slide4" class="carousel__prev"
-							>Go to last slide</a
-						>
-						<a href="#carousel__slide2" class="carousel__next"
-							>Go to next slide</a
-						>
-					</li>
-					<li id="carousel__slide2" tabindex="0" class="carousel__slide">
-						<div class="carousel__snapper">
-							<img
-								src="./assets/images/webp/11.webp"
-								alt="Knight of the empire"
-								srcset=""
-							/>
-						</div>
-						<a href="#carousel__slide1" class="carousel__prev"
-							>Go to previous slide</a
-						>
-						<a href="#carousel__slide3" class="carousel__next"
-							>Go to next slide</a
-						>
-					</li>
-					<li id="carousel__slide3" tabindex="0" class="carousel__slide">
-						<div class="carousel__snapper">
-							<img
-								src="./assets/images/webp/18.webp"
-								alt="Knight of the empire"
-								srcset=""
-							/>
-						</div>
-						<a href="#carousel__slide2" class="carousel__prev"
-							>Go to previous slide</a
-						>
-						<a href="#carousel__slide4" class="carousel__next"
-							>Go to next slide</a
-						>
-					</li>
-					<li id="carousel__slide4" tabindex="0" class="carousel__slide">
-						<div class="carousel__snapper">
-							<img
-								src="./assets/images/webp/6.webp"
-								alt="Knight of the empire"
-								srcset=""
-							/>
-						</div>
-						<a href="#carousel__slide3" class="carousel__prev"
-							>Go to previous slide</a
-						>
-						<a href="#carousel__slide1" class="carousel__next"
-							>Go to first slide</a
-						>
-					</li>
-				</ol>
-				<aside class="carousel__navigation">
-					<ol class="carousel__navigation-list">
-						<li class="carousel__navigation-item">
-							<a href="#carousel__slide1" class="carousel__navigation-button"
-								>1</a
+			<section id="carousel-section" class="full section-padding">
+				<h2 class="heading-2">CAROUSEL</h2>
+				<div class="carousel" aria-label="Gallery">
+					<ol class="carousel__viewport">
+						<li id="carousel__slide1" tabindex="0" class="carousel__slide">
+							<div class="carousel__snapper">
+								<img
+									src="./assets/images/webp/16.webp"
+									alt="Knight of the empire"
+									srcset=""
+								/>
+							</div>
+							<a href="#carousel__slide4" class="carousel__prev"
+								>Go to last slide</a
+							>
+							<a href="#carousel__slide2" class="carousel__next"
+								>Go to next slide</a
 							>
 						</li>
-						<li class="carousel__navigation-item">
-							<a href="#carousel__slide2" class="carousel__navigation-button"
-								>2</a
+						<li id="carousel__slide2" tabindex="0" class="carousel__slide">
+							<div class="carousel__snapper">
+								<img
+									src="./assets/images/webp/11.webp"
+									alt="Knight of the empire"
+									srcset=""
+								/>
+							</div>
+							<a href="#carousel__slide1" class="carousel__prev"
+								>Go to previous slide</a
+							>
+							<a href="#carousel__slide3" class="carousel__next"
+								>Go to next slide</a
 							>
 						</li>
-						<li class="carousel__navigation-item">
-							<a href="#carousel__slide3" class="carousel__navigation-button"
-								>3</a
+						<li id="carousel__slide3" tabindex="0" class="carousel__slide">
+							<div class="carousel__snapper">
+								<img
+									src="./assets/images/webp/18.webp"
+									alt="Knight of the empire"
+									srcset=""
+								/>
+							</div>
+							<a href="#carousel__slide2" class="carousel__prev"
+								>Go to previous slide</a
+							>
+							<a href="#carousel__slide4" class="carousel__next"
+								>Go to next slide</a
 							>
 						</li>
-						<li class="carousel__navigation-item">
-							<a href="#carousel__slide4" class="carousel__navigation-button"
-								>4</a
+						<li id="carousel__slide4" tabindex="0" class="carousel__slide">
+							<div class="carousel__snapper">
+								<img
+									src="./assets/images/webp/6.webp"
+									alt="Knight of the empire"
+									srcset=""
+								/>
+							</div>
+							<a href="#carousel__slide3" class="carousel__prev"
+								>Go to previous slide</a
+							>
+							<a href="#carousel__slide1" class="carousel__next"
+								>Go to first slide</a
 							>
 						</li>
 					</ol>
-				</aside>
+					<aside class="carousel__navigation">
+						<ol class="carousel__navigation-list">
+							<li class="carousel__navigation-item">
+								<a href="#carousel__slide1" class="carousel__navigation-button"
+									>1</a
+								>
+							</li>
+							<li class="carousel__navigation-item">
+								<a href="#carousel__slide2" class="carousel__navigation-button"
+									>2</a
+								>
+							</li>
+							<li class="carousel__navigation-item">
+								<a href="#carousel__slide3" class="carousel__navigation-button"
+									>3</a
+								>
+							</li>
+							<li class="carousel__navigation-item">
+								<a href="#carousel__slide4" class="carousel__navigation-button"
+									>4</a
+								>
+							</li>
+						</ol>
+					</aside>
+				</div>
 			</section>
 			<!-- CAROUSEL END -->
+
+			<!-- ASYMMETRICAL GRID START -->
+			<section id="penguin-photos">
+				<h2 class="heading-2">ASYMMETRICAL GRID</h2>
+				<div class="grid-container">
+					<div class="penguin-photo-item" id="item-1">
+						<img
+							src="./assets/images/webp/4.webp"
+							alt="A penguin above the hill by Ian Parker."
+						/>
+					</div>
+					<div class="penguin-photo-item" id="item-2">
+						<img
+							src="./assets/images/webp/4.webp"
+							alt="Three penguins walking in a snowy field."
+						/>
+					</div>
+					<div class="penguin-photo-item" id="item-3">
+						<img
+							src="./assets/images/webp/4.webp"
+							alt="A penguin swimming underwater by Atlas Kadrow."
+						/>
+					</div>
+					<div class="penguin-photo-item" id="item-4">
+						<img
+							src="./assets/images/webp/4.webp"
+							alt="Horde of penguins by Martin Wettstein."
+						/>
+					</div>
+					<div class="penguin-photo-item" id="item-5">
+						<img
+							src="./assets/images/webp/4.webp"
+							alt="Penguin under the sum by Atlas Kadrow."
+						/>
+					</div>
+				</div>
+			</section>
+			<!-- ASYMMETRICAL GRID END -->
+
+			<!-- RESPONSIVE IMAGE START -->
+			<section
+				id="responsive-image-section"
+				class="second-section section-padding full form-section"
+			>
+				<h2 class="heading-2">RESPONSIVE IMAGE</h2>
+				<figure class="responsive-image-wrapper">
+					<picture>
+						<source
+							media="(max-width: 799px)"
+							srcset="./assets/images/webp/8.webp"
+						/>
+						<source
+							media="(min-width: 800px)"
+							srcset="./assets/images/webp/7.webp"
+						/>
+						<img src="./assets/images/webp/7.webp" alt="AI Generated Images" />
+					</picture>
+				</figure>
+			</section>
+			<!-- RESPONSIVE IMAGE END -->
+
 			<section
 				id="second-section"
 				class="second-section section-padding full form-section"
