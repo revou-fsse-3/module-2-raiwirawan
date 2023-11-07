@@ -16,11 +16,25 @@
 		<link rel="stylesheet" href="./css/responsive-nav.css" />
 		<link rel="stylesheet" href="./css/carousel.css" />
 		<link rel="stylesheet" href="./css/responsive.css" />
+		<link rel="stylesheet" href="./css/dark-mode.css" />
 	</head>
 	<body>
 		<header id="header">
 			<nav class="navbar">
 				<a href="#" class="nav-logo logo">RAIMATHICS.</a>
+				<span id="dark-mode-switch">
+					<p>Dark Mode</p>
+
+					<label class="switch">
+						<input
+							id="checkbox-dark-mode"
+							onchange="toggleDarkMode()"
+							type="checkbox"
+							class="darkmode"
+						/>
+						<span class="slider round"></span>
+					</label>
+				</span>
 				<ul class="nav-menu">
 					<li class="nav-item">
 						<a href="#first-section" class="nav-link">GALLERY</a>
@@ -207,7 +221,7 @@
 			<!-- CAROUSEL END -->
 
 			<!-- ASYMMETRICAL GRID START -->
-			<section id="penguin-photos">
+			<section id="penguin-photos" class="full section-padding">
 				<h2 class="heading-2">ASYMMETRICAL GRID</h2>
 				<div class="grid-container">
 					<div class="penguin-photo-item" id="item-1">
@@ -405,4 +419,5 @@
 	</body>
 	<script src="./js/navbar.js"></script>
 	<script src="./js/functions.js"></script>
+	<script src="./js/darkMode.js"></script>
 </html>
